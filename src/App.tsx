@@ -180,7 +180,7 @@ export default function App() {
       {/* BACKGROUND VIDEO (mouse-scrub controlled) */}
       <video
         ref={videoRef}
-        src="/assets/aistudio/video_fa91fe93.mp4"
+        src={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/assets/aistudio/video_fa91fe93.mp4`}
         muted
         playsInline
         preload="auto"
